@@ -29,7 +29,7 @@ const LoadingScreen = ({ setIsLoading }: LoadingScreenProps) => {
   }, [setIsLoading]);
 
   return (
-    <div className=" min-w-[1200px] min-h-screen flex flex-col justify-center items-center gap-1">
+    <section className=" min-h-screen flex flex-col justify-center items-center gap-1">
       <div className=" text-2xl">
         {greeting}
         <span className="animate-blink ">|</span>
@@ -37,7 +37,7 @@ const LoadingScreen = ({ setIsLoading }: LoadingScreenProps) => {
       <div className="ml-2 w-[75px] h-[2px] bg-gray-500 overflow-hidden">
         <div className="h-full w-[40%] bg-amber-500 animate-loading-bar "></div>
       </div>
-    </div>
+    </section>
   );
 };
 

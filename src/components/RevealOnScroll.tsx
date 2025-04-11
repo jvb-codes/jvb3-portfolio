@@ -2,7 +2,7 @@ import { PropsWithChildren, useEffect, useRef } from "react";
 import "../index.css";
 
 const RevealOnScroll = ({ children }: PropsWithChildren) => {
-  const ref = useRef(null);
+  const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
