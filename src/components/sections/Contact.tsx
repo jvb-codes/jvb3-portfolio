@@ -79,13 +79,13 @@ const Contact = () => {
                 value={formData.message}
                 className="w-full border border-gray-50/10 focus:outline-none focus:border-blue-500 bg-blue-500/5 rounded p-2"
               ></textarea>
-              <button
-                type="submit"
-                className="w-full bg-blue-500 text-white py-3 px-4 rounded font-medium transition relative overflow-hidden hover:-translate-0.5 hover: shadow-[0_0_15px_rgba(59,130,246,0.1)]"
-              >
-                Send message
-              </button>
             </div>
+            <button
+              type="submit"
+              className="w-full bg-blue-500 text-white py-3 px-4 rounded font-medium transition relative overflow-hidden hover:-translate-0.5 hover: shadow-[0_0_15px_rgba(59,130,246,0.1)]"
+            >
+              Send message
+            </button>
           </form>
         </div>
       </section>
